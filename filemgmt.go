@@ -28,7 +28,7 @@ func CopyFile(source string, destination string) error {
 	return nil
 }
 
-// MoveFile verplaatst een bestand van source naar destination test
+// MoveFile verplaatst een bestand van source naar destination
 func MoveFile(source string, destination string) error {
 	err := CopyFile(source, destination)
 	if err != nil {
